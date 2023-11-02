@@ -9,7 +9,6 @@ def arg_parser():
     parser.add_argument("-source_url", required=True)
     parser.add_argument("-save_dir", required=True)
     parser.add_argument("-download_type", required=True)
-
     return parser.parse_args()
 
 

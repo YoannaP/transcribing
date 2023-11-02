@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-#
-#  Podcasts Export
-#  ---------------
-#  Douglas Watson, 2020, MIT License
-#
-#  Intended for use within an Automator workflow.
-#
-#  Receives a destination folder, finds Apple Podcasts episodes that have been
-#  downloaded, then copies those files into a new folder giving them a more
-#  descriptive name.
+# source: https://github.com/douglas-watson/podcasts_export
 
 import os
 import sys
